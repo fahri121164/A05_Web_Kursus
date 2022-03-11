@@ -225,6 +225,13 @@ header .container .profile img{
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
+    transition: all 0.3s ease-in;
+    box-shadow: 0 9px #999;
+}
+.temukan:hover {
+    transform: translateY(10px);
+    box-shadow: none;
+    cursor: pointer;
 }
 /* FIELD-4 END */
 
