@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* HEADER */
+header{
+    padding: 16px 0;
+    /* border-bottom: 1px solid rgba(0,0,0, 0.1); */
+    box-shadow: 0 0.1px 5px 0px rgb(214, 214, 214);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px
+}
+header .navigasi{
+    float: right;
+}
+
+header .container ul li{
+    padding: 0 15px;    
+    color: white;
+    display: block;
+    float: left;
+}
+header .container ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header .container ul li a:hover{
+    color: blue;
+}
+header .container .logo{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 35px;
+}
+header .container .profile{
+    font-weight: bold;
+    float: left;
+    text-align: center;
+}
+header .container .profile .profile-element{
+    display: flex;
+    align-items: center;
+}
+header .container .profile img{
+    width: 30px;
+    height: 30px;
+    padding: 0px 8px;
+    border-radius: 50%;
+}
+.menu-icon{
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:  none;
+    color: black;
+}
+.menu-icon:hover{
+    color: blue;
+}
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: -100px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 0;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a i{
+    margin-right: 10px;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* END HEADER */
+
+
+
+@media all and (max-width: 670px) {
+    header{
+        padding: 2px 0;
+    }
+    header .container{
+        padding: 0 40px;
+    }
+    .navigasi{
+        display:  none;
+      }
+    .profile{
+        display: none;
+    }
+    .menu-icon{
+        display:  block;
+    }
+}
+
