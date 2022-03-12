@@ -326,6 +326,7 @@ header .container .profile img{
 **************************/
 footer {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .flex-container {
@@ -349,6 +350,7 @@ footer {
 .footer-left p {
     font-size: 14px;
     margin-top: 10px;
+    line-height: 20px;
 }
 
 .footer-center {
@@ -371,6 +373,10 @@ footer {
     color: #000000;
 }
 
+.footer-center-list a:hover {
+    color: #4ccfc9;
+}
+
 .footer-heading h3 {
     margin: 0;
     font-size: 18px;
@@ -383,6 +389,10 @@ footer {
 .footer-right p {
     font-size: 14px;
     margin: 20px 0;
+}
+
+.footer-right a:hover {
+    font-weight: 500;
 }
 
 .footer-copyright {
