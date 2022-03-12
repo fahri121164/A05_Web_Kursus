@@ -176,14 +176,16 @@ header .container .profile img{
     position:relative;
     margin: 120px 75px;
 }
-.img-field4{
+.gambar-tentor{
     float:left;
     position: absolute;
-    width: 600px;
-    height: 411.57px;
+    width: 100px;
+    height: 80px;
+    border-radius: 15px;
 }
 .txt-field4{
     float:right;
+    text-align: right;
 }
 /* FIELD-4 END */
 
