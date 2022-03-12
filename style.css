@@ -106,6 +106,44 @@ header .container .profile img{
 }
 /* END HEADER */
 
+/* FIELD-4 START */
+.field4{
+    position: absolute;
+    width: 1440px;
+    height: 652px;
+    left: 0px;
+    top: 1879px;
+
+    background: #F5F7FB;
+}
+.container-field4{
+    position: absolute;
+    width: 1290px;
+    height: 419px;
+    left: 75px;
+    top: 120px;
+}
+.text-field4 h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.text-field4 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    color: #000000;
+}
+
+
+/* FIELD-4 END */
+
 
 
 @media all and (max-width: 670px) {
