@@ -106,6 +106,21 @@ header .container .profile img{
 }
 /* END HEADER */
 
+/* START HERO */
+#hero {
+    padding: 100px 50px;
+}
+#hero h1{
+    margin-bottom: 20px;
+}
+#hero p{
+    margin-bottom: 20px;
+}
+.input-search{
+    display: flex;
+}
+/* END HERO */
+
 /* Field-3 */
 .mentor {
     padding-top: 70px;
