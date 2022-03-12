@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -10,11 +16,11 @@ body {
 /* HEADER */
 header{
     padding: 16px 0;
-    /* border-bottom: 1px solid rgba(0,0,0, 0.1); */
     box-shadow: 0 0.1px 5px 0px rgb(214, 214, 214);
     width: 100%;
     position: fixed;
     top: 0px;
+    background-color: #fff;
 }
 header .container{
     display: flex;
@@ -174,9 +180,99 @@ header .container .profile img{
 }
 /* FIELD-4 END */
 
+/* FAQ */
+.faq{
+    margin-top: 100px;
+    padding: 50px 0;
+    background-color: #4CCFC9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq .container{
+    width: 100%;
+}
+.faq .container .text-top{
+    width: 80%;
+    margin: 0 auto;
+}
+.faq .container .text-top h1{
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+}
+.faq .container .text-top p{
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.faq .container .accordion{
+    width: 60%;
+    margin: 0 auto;
+}
+.faq .container .accordion-item{
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.faq .container .accordion-link{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0 5px 10px;  
+}
+.faq .container .accordion-link a:hover{
+    color: blue;
+}
+.faq .container .accordion-link i{
+    color: black;
+    padding: 5px 10px 5px 0;
+}
+.accordion-link .fa-angle-up{
+    display: none;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650ms;
+}
+.answer::before{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 90%;
+    background-color: #4CCFC9;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.container .accordion .answer p{
+    color: black;
+    padding: 2px 20px 10px 20px;
+}
+.accordion-item:target .answer{
+    max-height:100px;
+}
+.accordion-item:target .accordion-link .fa-angle-down{
+    display: none;
+}
+.accordion-item:target .accordion-link .fa-angle-up{
+    display: block;
+}
+/* END FAQ */
 
 
-@media all and (max-width: 670px) {
+/* RESPONSIVE TABLET */
+@media all and (max-width: 1000px) {
+    /* HEADER RESPONSIVE */
     header{
         padding: 2px 0;
     }
@@ -192,5 +288,40 @@ header .container .profile img{
     .menu-icon{
         display:  block;
     }
-}
+    /* END HEADER RESPONSIVE */
 
+    /* FAQ RESPONSIVE*/
+    .faq .container .text-top{
+        width: 90%;
+    }
+    .faq .container .text-top h1{
+        font-size: 32px;
+    }
+    .faq .container .text-top p{
+        font-size: 16px;
+    }
+    .faq .container .accordion{
+        width: 75%;
+    }
+    .faq .container .accordion-link{
+        font-size: 16px; 
+    }
+    .faq .container .accordion-link p{
+        font-size: 14;
+    }
+    /* END FAQ RESPONSIVE*/
+}
+/* END RESPONSIVE TABLET */
+
+/* RESPONSIVE MOBILE */
+@media all and (max-width: 670px) {
+    /* FAQ */
+    .faq .container .text-top{
+        width: 90%;
+    }
+    .faq .container .accordion{
+        width: 90%;
+    }
+    /* END FAQ */
+}
+/* END RESPONSIVE MOBILE */
