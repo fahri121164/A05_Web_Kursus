@@ -171,33 +171,40 @@ header .container .profile img{
     margin: auto;
     background-color: #F5F7FB;
 }
-.container-field4{
-    position:relative;
+.field4 .container{
     margin: 120px 75px;
+    display: flex;
+    flex-direction: row;
+}
+.img-field4{
+    float:left;
+    width: 50%;
 }
 .gambar-tentor{
     float:left;
-    position: absolute;
-    width: 100px;
-    height: 80px;
+    padding-top: 10px;
+    width: 400px;
+    height: 250px;
     border-radius: 15px;
 }
-.txt-field4{
-    text-align: right;
+.text-field4{
+    float: right;
+    width: 50%;
     
 }
-.txt-field4 h4{
+.container .text-field4 h4{
+    
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 48px;
     letter-spacing: -0.5px;
-    color: #000000;
+    color: #000;
 }
-.txt-field4 p{
+.container .text-field4 p{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 36px;
     letter-spacing: -0.25px;
     color: #000000;
