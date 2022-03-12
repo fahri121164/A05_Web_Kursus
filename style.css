@@ -429,6 +429,19 @@ footer {
     }
     /* Field-3 End */
 
+    /* Field-4 Start */
+    .field4 .container{
+        display: flex;
+
+    }
+    .img-field4{
+        display: flex;
+    }
+    .text-field4{
+        width: 90%;
+    }
+    /* Field-4 End */
+
     /* FAQ RESPONSIVE*/
     .faq .container .text-top{
         width: 90%;
@@ -482,6 +495,23 @@ footer {
         font-size: 15px !important;
     }
     /* Field-3 End */
+
+    /* Field-4 Start */
+    .field4 .container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .field4 .img-field4{
+        /* width: 200px;
+        height: 100px; */
+        
+    }
+    .field4 .text-field4 h4 p{
+        /* width: 90%; */
+        text-align: center;
+    }
+
+    /* Field-4 End */
 
     /* FAQ */
     .faq .container .text-top{
