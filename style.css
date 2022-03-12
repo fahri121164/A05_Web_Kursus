@@ -324,6 +324,78 @@ header .container .profile img{
 }
 /* END FAQ */
 
+/*************************
+*Footer [Fahri Nurrahman]* 
+**************************/
+footer {
+    margin-top: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 70px;
+  }
+
+.flex-container > div {
+    flex: auto;
+  }
+
+.footer-left {
+    width: 30%;
+}
+
+.footer-logo {
+    width: 35%;
+}
+
+.footer-left p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer-center {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.footer-center-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-center-list li {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.footer-center-list a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-heading h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer-right {
+    width: 30%;
+}
+
+.footer-right p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+}
+/******************************
+* End Footer [Fahri Nurrahman]* 
+*******************************/
 
 /* RESPONSIVE TABLET */
 @media all and (max-width: 1000px) {
