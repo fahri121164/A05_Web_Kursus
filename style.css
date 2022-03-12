@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 /* HEADER */
 header{
     padding: 16px 0;
