@@ -183,8 +183,8 @@ header .container .profile img{
 .gambar-tentor{
     float:left;
     padding-top: 10px;
-    width: 400px;
-    height: 250px;
+    width: 580px;
+    height: 310px;
     border-radius: 15px;
 }
 .text-field4{
@@ -214,21 +214,21 @@ header .container .profile img{
     flex-direction: row;
     justify-content: center;
     align-items: right;
-    padding: 16px 24px;
+    padding-top: 22px;
     position: absolute;
-    width: 197px;
-    height: 64px;
+    width: 150px;
+    height: 60px;
     background: #4CCFC9;
     border-radius: 8px;
 }
 .temukan{
+    text-align: center;
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
     color: #FFFFFF;
     cursor: pointer;
     box-shadow: 0 4px #808080;
+    
 }
 /* FIELD-4 END */
 
