@@ -106,6 +106,63 @@ header .container .profile img{
 }
 /* END HEADER */
 
+/* Field-3 */
+.mentor {
+    padding-top: 70px;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #4CCFC9;
+}
+.mentor .container .judul {
+    width: 608px;
+    display: flex;
+    margin: auto;
+}
+.mentor .container h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.mentor .cardd {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.mentor .card {
+    padding: 20px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: #fff;
+}
+.mentor .card-title h2 {
+    text-align: center;
+    color: #000;
+}
+.mentor .card-body{
+    /* width: 320px; */
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+.mentor .card-body img {
+    width: 200px;
+    margin: auto;
+}
+.mentor .card-body p {
+    text-align: center;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Field-3 End */
+
 /* FIELD-4 START */
 .field4{
     width: 100%;
@@ -281,6 +338,21 @@ header .container .profile img{
     }
     /* END HEADER RESPONSIVE */
 
+
+    /* Field-3 Start */
+    .mentor .cardd {
+        display: flex;
+        flex-direction: column;
+    }
+    .mentor .card {
+        width: 300px;
+        margin-left: 0;
+    }
+    .mentor .card-body {
+        width: 270px;
+    }
+    /* Field-3 End */
+
     /* FAQ RESPONSIVE*/
     .faq .container .text-top{
         width: 90%;
@@ -301,11 +373,40 @@ header .container .profile img{
         font-size: 14;
     }
     /* END FAQ RESPONSIVE*/
+
 }
 /* END RESPONSIVE TABLET */
 
 /* RESPONSIVE MOBILE */
 @media all and (max-width: 670px) {
+
+    /* Field-3 Start */
+    .mentor .cardd {
+        display: flex;
+        flex-direction: column;
+    }
+    .mentor .card {
+        width: 300px;
+        height: 430px;
+        /* margin-left: 0; */
+    }
+    .mentor .card-body {
+        width: 270px;
+    }
+    .mentor .container .judul {
+        max-width: 300px !important;
+    }
+    .mentor .container h1 {
+        font-size: 40px;
+    }
+    .mentor .card-body p {
+        text-align: center;
+        /* line-height: 32px; */
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+    /* Field-3 End */
+
     /* FAQ */
     .faq .container .text-top{
         width: 90%;
