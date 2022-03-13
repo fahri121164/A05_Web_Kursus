@@ -304,13 +304,13 @@ header .container .profile img{
 }
 .img-field4{
     float:left;
-    width: 50%;
+    padding-right: 20px;
 }
 .gambar-tentor{
     float:left;
     padding-top: 10px;
     width: 580px;
-    height: 310px;
+    height: 390px;
     border-radius: 15px;
 }
 .text-field4{
@@ -341,12 +341,20 @@ header .container .profile img{
     justify-content: center;
     align-items: right;
     padding-top: 22px;
+    margin-top: 10px;
     position: absolute;
     width: 150px;
     height: 60px;
     background: #4CCFC9;
     border-radius: 8px;
 }
+.btn:hover{
+    background-color: #0c3d3b;
+}
+.btn:active {
+    position: absolute;
+    box-shadow: none;
+  }
 .temukan{
     text-align: center;
     font-style: normal;
@@ -635,11 +643,10 @@ footer {
     /* Field-4 Start */
     .field4 .container{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
     }
     .field4 .img-field4{
-        /* width: 200px;
-        height: 100px; */
+        width:100%;
         
     }
     .field4 .text-field4 h4 p{
