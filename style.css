@@ -473,7 +473,7 @@ footer {
 }
 
 .footer-logo {
-    width: 35%;
+    width: 60%;
 }
 
 .footer-left p {
@@ -615,6 +615,12 @@ footer {
         font-size: 14;
     }
     /* END FAQ RESPONSIVE*/
+
+    /* Footer */
+    .footer-logo {
+        width: 60%;
+    }
+    /* End Footer */
 
 }
 /* END RESPONSIVE TABLET */
