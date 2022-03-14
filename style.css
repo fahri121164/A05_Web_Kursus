@@ -686,5 +686,40 @@ footer {
         width: 90%;
     }
     /* END FAQ */
+
+    /* Footer */
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .flex-container > div {
+        /* margin: 0 0; */
+        width: 100%;
+    }
+    
+    .footer-logo {
+        width: 60%;
+    }
+
+    .footer-left p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .footer-center {
+        padding: 0 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-center-list li {
+        margin: 10px 0;
+    }
+
+    .footer-right p {
+        margin: 10px 0;
+    }
+    /* End Footer */
 }
 /* END RESPONSIVE MOBILE */
