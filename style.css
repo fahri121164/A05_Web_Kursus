@@ -229,6 +229,21 @@ header .container .profile img{
 .btn-primary:active{
     box-shadow: inset 2px 2px 5px #00000030;
 }
+
+@media screen and (max-width: 991px) {
+    .mentor-img img{
+        height: 125px;
+    }
+    .mentor-card{
+        width: 150px;
+    }
+    .mentor-name{
+        font-size: 16px;
+    }
+    .mentor-job{
+        font-size: 14px;
+    }
+}
 /* END HERO */
 
 /* Field-3 */
