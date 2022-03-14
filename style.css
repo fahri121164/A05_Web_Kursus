@@ -335,29 +335,38 @@ header .container .profile img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 22px;
-    margin-top: 2px;
+    padding: 16px 24px;
     position: absolute;
-    width: 150px;
-    height: 60px;
+    width: 197px;
+    height: 64px;
     background: #4CCFC9;
     border-radius: 8px;
 }
-.btn:hover{
+/* .btn:hover{
     background-color: #0c3d3b;
 }
 .btn:active {
     position: absolute;
     box-shadow: none;
-  }
+  } */
 .temukan{
     text-align: center;
     font-style: normal;
     font-size: 16px;
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
     cursor: pointer;
-    box-shadow: 0 4px #808080;
+    /* box-shadow: 0 4px #808080; */
+    transition: all 0.3s ease-in;
+    box-shadow: 0 9px #999;
     
+}
+.temukan:hover {
+    transform: translateY(10px);
+    box-shadow: none;
+    cursor: pointer;
 }
 /* FIELD-4 END */
 
